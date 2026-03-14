@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import os
 
-# We use a CSV file  for easy web hosting
+# Use a CSV file  for easy web hosting
 CSV_FILE = 'portfolio.csv'
 
 # Ensure the CSV exists. If not, create it with headers.
@@ -23,7 +23,7 @@ def save_data(df):
 
 st.title("📈 Bursa Malaysia Portfolio Tracker")
 
-# --- 2. SIDEBAR: ADD NEW STOCK ---
+# SIDEBAR: ADD NEW STOCK 
 with st.sidebar:
     st.header("💰 Add New Investment")
     
@@ -59,7 +59,7 @@ with st.sidebar:
         else:
             st.warning("Please fill in both Ticker and Name.")
 
-# --- 3. MAIN DASHBOARD ---
+# MAIN DASHBOARD 
 try:
     df = load_data()
     
