@@ -6,7 +6,7 @@
 The Bursa Malaysia Portfolio Tracker is a full-stack, interactive web application designed to help investors monitor their Malaysian stock market holdings in real-time. Built specifically for Data Analysis and Financial Tracking, this dashboard replaces manual spreadsheet tracking with automated live data extraction.
 
 ## Live Demo
-Check out the live web application here: **[[](https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/)]]**
+Check out the live web application here: **[[https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/](https://bursastocktracker-klhqfrbndhfvcvckxnc3f3.streamlit.app/)]]**
 
 ## Key Features
 * **Live Market Data:** Integrates with the `yfinance` API to fetch real-time stock prices for Bursa Malaysia tickers.
