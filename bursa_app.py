@@ -21,11 +21,11 @@ def save_data(df):
     df.to_csv(CSV_FILE, index=False)
 
 
-st.title("📈 Bursa Malaysia Portfolio Tracker")
+st.title("Bursa Malaysia Portfolio Tracker")
 
 # SIDEBAR: ADD NEW STOCK 
 with st.sidebar:
-    st.header("💰 Add New Investment")
+    st.header("Add New Investment")
     
     new_ticker = st.text_input("Ticker Symbol (e.g., 1295.KL)")
     new_name = st.text_input("Company Name (e.g., Public Bank)")
