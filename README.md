@@ -26,8 +26,7 @@ Check out the live web application here: **[[https://bursastocktracker-klhqfrbnd
 If you would like to run this project on your own machine, follow these steps:
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Kolek88/bursa-stock-tracker.git](https://github.com/Kolek88/bursa-stock-tracker.git)
+git clone [https://github.com/Kolek88/bursa-stock-tracker.git](https://github.com/Kolek88/bursa-stock-tracker.git)
    
 2. **Navigate into the project directory:**
    cd bursa-stock-tracker
